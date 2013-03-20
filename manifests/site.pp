@@ -61,6 +61,8 @@ node default {
   include sysctl::ipforwarding
   include wget
   include vlc
+  
+  include zsh
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
