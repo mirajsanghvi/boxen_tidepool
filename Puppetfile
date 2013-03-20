@@ -33,3 +33,7 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "postgresql", "1.0.0"
+# github "sublime_text_2", "1.1.0"
+github "dropbox", "1.1.0"
