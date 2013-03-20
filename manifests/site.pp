@@ -57,9 +57,10 @@ node default {
   include nvm
   include postgresql
   include dropbox
-  # include sublime_text_2
+  include sublime_text_2
   include sysctl::ipforwarding
-  
+  include wget
+
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
