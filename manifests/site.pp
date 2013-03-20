@@ -60,6 +60,7 @@ node default {
   include sublime_text_2
   include sysctl::ipforwarding
   include wget
+  include vlc
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
