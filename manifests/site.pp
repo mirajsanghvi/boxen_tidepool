@@ -58,7 +58,7 @@ node default {
   include postgresql
   include dropbox
   # include sublime_text_2
-  
+  include sysctl::ipforwarding
   
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
