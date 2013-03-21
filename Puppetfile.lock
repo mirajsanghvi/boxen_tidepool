@@ -59,6 +59,11 @@ GITHUBTARBALL
     postgresql (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-redis
+  specs:
+    redis (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (3.1.0)
@@ -117,6 +122,7 @@ DEPENDENCIES
   nvm (= 1.0.0)
   osx (= 1.0.0)
   postgresql (= 1.0.0)
+  redis (= 1.0.0)
   ruby (= 3.1.0)
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.1.0)

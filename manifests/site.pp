@@ -61,9 +61,10 @@ node default {
   include sysctl::ipforwarding
   include wget
   include vlc
-  
-  include zsh
 
+  include zsh
+  include redis
+  
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')

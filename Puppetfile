@@ -43,3 +43,5 @@ github "wget", "1.0.0"
 github "vlc", "1.0.0"
 github "osx", "1.0.0"
 github "zsh", "1.0.0"
+github "redis", "1.0.0"
+
